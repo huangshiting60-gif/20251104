@@ -98,7 +98,7 @@ function parseCSV(txt) {
 
 function setup() {
   createCanvas(windowWidth, windowHeight).parent("game-container");
-  textFont('MyCustomFont');
+  textFont('ZCOOL KuaiLe');
 
   // 選單配色
   MENU_BG = color(17, 24, 39, 180);
@@ -174,7 +174,7 @@ function drawTomxorPoint(i, p) {
 // === 封面：繞宇宙公轉（前亮後暗＋星塵） ===
 function drawOrbitingTitle() {
   const cx = width / 2, cy = height / 2;
-  const title = '教育科技學系';
+  const title = '教育科技学系';
   const subtitle = '414730175 黃詩婷';
   const titleSize = min(width, height) * 0.09;
   const subtitleSize = min(width, height) * 0.035;
